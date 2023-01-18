@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/Mont/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+    <title>e-kosmetika</title>
+</head>
+<body>
+    <header class="">
+        
+        <div class="d-flex justify-content-center justify-content-lg-between text-nowrap fs-14 text-color-swamp-black fw-600 py-1 px-5 bg-white flex-wrap">
+            <div class="d-flex flex-column flex-sm-row flex-wrap flex-sm-nowrap justify-content-center justify-content-sm-start">
+                <div class="d-flex pe-sm-5 justify-content-center align-items-center">
+                    <div class="bg-light-cloudy-blue rounded-pill text-color-ultramarine me-2 px-3 text-nowrap">9.00 - 22.00</div>
+                    <div>Пн-Пт</div>
+                </div>
+                <div class="d-flex align-items-center py-2 py-sm-0">
+                    <div class="fs-16 pe-3">
+                        <a href="tel:+74995013355" class="text-decoration-none text-color-swamp-black swamp-black-url fs-18">+7 (499) 501-33-55</a>
+                    </div>
+                    <div class="">
+                        <a href="tel:+74995013355" class="text-color-ultramarine ultramarine-url">Обратный звонок</a>
+                    </div>                
+                </div>
+            </div>
+            <div class="d-flex mt-sm-2 mt-md-0">
+                <div class="ms-3 me-4">
+                    <a href="mailto:info@e-kosmetika1.ru" class="text-decoration-none text-color-swamp-black swamp-black-url">info@e-kosmetika1.ru</a>
+                </div>
+                <div class="d-flex">
+                    <div class=""><a href="#"><img src="assets/images/icon_facebook_1.svg"  class="" alt="icon-facebook-1"></a></div>
+                    <div class="px-3"><a href="#"><img src="assets/images/icon_vk_1.svg" class="" alt="icon-vk-1"></a></div>
+                    <div class=""><a href="#"><img src="assets/images/icon_instagram_1.svg" class="" alt="icon-instagram-1"></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-column flex-lg-row justify-content-lg-between bg-caramel-white px-5 py-3">
+            <div class="d-flex align-items-center">
+                <div class="d-flex flex-column flex-sm-row flex-grow-1 align-items-center">
+                    <div class="d-flex d-sm-inline flex-nowrap flex-sm-wrap me-sm-4 mb-2 mb-sm-0">
+                        <img src="assets/images/logo_header.png" alt="Логотип" class="me-3 me-sm-0">
+                        <div class="dropdown d-sm-none">
+                            <a class="" href="javascript:void(0);" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="true">
+                                <span class="navbar-toggler-icon"></span>
+                            </a>
+                          
+                            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                              <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">О компании</a></li>
+                              <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">Доставка и оплата</a></li>
+                              <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">Новости</a></li>
+                              <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">Контакты</a></li>
+                            </ul>
+                          </div>                            
+                    </div>
+                    <a data-bs-toggle="offcanvas" href="#offcanvasCatalog" role="button" class="text-decoration-none text-color-white white-url" aria-controls="offcanvasCatalog" id="link-catalog">
+                        <div class="text-color-white bg-candy-orange rounded-2 mt-2 mt-sm-0 p-2 px-3 text-nowrap">
+                            <img src="assets/images/icon_catalog.svg" class="me-2 icon-catalog" id="icon-catalog">каталог
+                        </div>
+                    </a>
+
+                    <div class="offcanvas offcanvas-top z--1" tabindex="-1" id="offcanvasCatalog" aria-labelledby="offcanvasTopLabel" data-bs-backdrop="false">
+                        <div class="offcanvas-body offcat">
+                            <div class="container-fluid bg-white">
+                                <div class="container">
+                                    <div class="accordion filtres d-md-none" id="accordionPanelsStayOpenExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                                <button class="accordion-button fs-18 fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                                Бренды
+                                                </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                                <div class="accordion-body fs-16">
+                                                    <div class="d-flex flex-column">
+                                                        <a href="#" class="catalog-url mb-3">Biretix (6)</a>
+                                                        <a href="#" class="catalog-url mb-3">Cellpro (2)</a>
+                                                        <a href="#" class="catalog-url mb-3">Dermatime (45)</a>
+                                                        <a href="#" class="catalog-url mb-3">Endocare (12)</a>
+                                                        <a href="#" class="catalog-url mb-3">Endocare Tensage (5)</a>
+                                                        <a href="#" class="catalog-url mb-3">Evenswiss (16)</a>
+                                                        <a href="#" class="catalog-url mb-3">Heliocare (20)</a>
+                                                        <a href="#" class="catalog-url mb-3">Keenwell (93)</a>
+                                                        <a href="#" class="catalog-url mb-3">Neoretin (3)</a>
+                                                        <a href="#" class="catalog-url">Zimberland (3)</a>
+                                                    </div>    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                                <button class="accordion-button collapsed fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
+                                                Проблемы
+                                                </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                                <div class="accordion-body fs-16">
+                                                    <div class="d-flex flex-column">
+                                                        <a href="#" class="catalog-url mb-3">Атопия кожи (3)</a>
+                                                        <a href="#" class="catalog-url mb-3">Акне (18)</a>
+                                                        <a href="#" class="catalog-url mb-3">Воспаленная кожа (15)</a>
+                                                        <a href="#" class="catalog-url mb-3">Выпадение волос (4)</a>
+                                                        <a href="#" class="catalog-url mb-3">Гиперпигментация (11)</a>
+                                                        <a href="#" class="catalog-url mb-3">Защита кожи (25)</a>
+                                                        <a href="#" class="catalog-url mb-3">Круги под глазами (11)</a>
+                                                        <a href="#" class="catalog-url mb-3">Купероз (5)</a>
+                                                        <a href="#" class="catalog-url mb-3">Лифтинг (33)</a>
+                                                        <a href="#" class="catalog-url mb-3">Лишний вес (7)</a>
+                                                        <a href="#" class="catalog-url mb-3">Морщины (64)</a>
+                                                        <a href="#" class="catalog-url mb-3">Псориаз (2)</a>
+                                                        <a href="#" class="catalog-url mb-3">Регенерация (50)</a>
+                                                        <a href="#" class="catalog-url mb-3">Себорея (16)</a>
+                                                        <a href="#" class="catalog-url mb-3">Солнечная защита (24)</a>
+                                                        <a href="#" class="catalog-url mb-3">Старение кожи (72)</a>
+                                                        <a href="#" class="catalog-url mb-3">Стрии (4)</a>
+                                                        <a href="#" class="catalog-url mb-3">Тусклая кожа (34)</a>
+                                                        <a href="#" class="catalog-url mb-3">Фотостарение (35)</a>
+                                                        <a href="#" class="catalog-url mb-3">Целлюлит (5)</a>
+                                                        <a href="#" class="catalog-url mb-3">Очищение (30)</a>
+                                                        <a href="#" class="catalog-url">Потеря влаги (51)</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                                <button class="accordion-button collapsed fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
+                                                Возраст
+                                                </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                                <div class="accordion-body fs-16">
+                                                    <div class="d-flex flex-column">
+                                                        
+                                                        <a href="#" class="catalog-url mb-3">12+ (62)</a>
+                                                        <a href="#" class="catalog-url mb-3">25+ (83)</a>
+                                                        <a href="#" class="catalog-url mb-3">30+ (22)</a>
+                                                        <a href="#" class="catalog-url mb-3">35+ (9)</a>
+                                                        <a href="#" class="catalog-url mb-3">45+ (2)</a>
+                                                        <a href="#" class="catalog-url mb-3">55+ (1)</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                    </div>
+
+                                    <div class="d-none d-md-flex flex-wrap justify-content-between text-color-swamp-black mt-4">
+                                        <div class="d-flex flex-column">
+                                            <div class="fs-18 fw-700 mb-4">Бренды</div>
+                                            <a href="#" class="catalog-url mb-2">Biretix (6)</a>
+                                            <a href="#" class="catalog-url mb-2">Cellpro (2)</a>
+                                            <a href="#" class="catalog-url mb-2">Dermatime (45)</a>
+                                            <a href="#" class="catalog-url mb-2">Endocare (12)</a>
+                                            <a href="#" class="catalog-url mb-2">Endocare Tensage (5)</a>
+                                            <a href="#" class="catalog-url mb-2">Evenswiss (16)</a>
+                                            <a href="#" class="catalog-url mb-2">Heliocare (20)</a>
+                                            <a href="#" class="catalog-url mb-2">Keenwell (93)</a>
+                                            <a href="#" class="catalog-url mb-2">Neoretin (3)</a>
+                                            <a href="#" class="catalog-url">Zimberland (3)</a>
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <div class="fs-18 fw-700 mb-4">Проблемы</div>
+                                            <a href="#" class="catalog-url mb-2">Атопия кожи (3)</a>
+                                            <a href="#" class="catalog-url mb-2">Акне (18)</a>
+                                            <a href="#" class="catalog-url mb-2">Воспаленная кожа (15)</a>
+                                            <a href="#" class="catalog-url mb-2">Выпадение волос (4)</a>
+                                            <a href="#" class="catalog-url mb-2">Гиперпигментация (11)</a>
+                                            <a href="#" class="catalog-url mb-2">Защита кожи (25)</a>
+                                            <a href="#" class="catalog-url mb-2">Круги под глазами (11)</a>
+                                            <a href="#" class="catalog-url mb-2">Купероз (5)</a>
+                                            <a href="#" class="catalog-url mb-2">Лифтинг (33)</a>
+                                            <a href="#" class="catalog-url mb-2">Лишний вес (7)</a>
+                                            <a href="#" class="catalog-url mb-2">Морщины (64)</a>
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <a href="#" class="catalog-url mb-2">Псориаз (2)</a>
+                                            <a href="#" class="catalog-url mb-2">Регенерация (50)</a>
+                                            <a href="#" class="catalog-url mb-2">Себорея (16)</a>
+                                            <a href="#" class="catalog-url mb-2">Солнечная защита (24)</a>
+                                            <a href="#" class="catalog-url mb-2">Старение кожи (72)</a>
+                                            <a href="#" class="catalog-url mb-2">Стрии (4)</a>
+                                            <a href="#" class="catalog-url mb-2">Тусклая кожа (34)</a>
+                                            <a href="#" class="catalog-url mb-2">Фотостарение (35)</a>
+                                            <a href="#" class="catalog-url mb-2">Целлюлит (5)</a>
+                                            <a href="#" class="catalog-url mb-2">Очищение (30)</a>
+                                            <a href="#" class="catalog-url">Потеря влаги (51)</a>
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <div class="fs-18 fw-700 mb-4">Возраст</div>
+                                            <a href="#" class="catalog-url mb-2">12+ (62)</a>
+                                            <a href="#" class="catalog-url mb-2">25+ (83)</a>
+                                            <a href="#" class="catalog-url mb-2">30+ (22)</a>
+                                            <a href="#" class="catalog-url mb-2">35+ (9)</a>
+                                            <a href="#" class="catalog-url mb-2">45+ (2)</a>
+                                            <a href="#" class="catalog-url mb-2">55+ (1)</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="dropdown d-none d-sm-block d-lg-none">
+                    <a class="btn" href="javascript:void(0);" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="true">
+                        <span class="navbar-toggler-icon"></span>
+                    </a>
+                  
+                    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">О компании</a></li>
+                      <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">Доставка и оплата</a></li>
+                      <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">Новости</a></li>
+                      <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">Контакты</a></li>
+                    </ul>
+                  </div>                        
+            </div>
+            <div class="d-none d-xxl-flex menu align-items-center text-nowrap fs-14 fw-600">
+                <div class="me-4"><a href="#" class="text-color-swamp-black swamp-black-url text-decoration-none">О компании</a></div>
+                <div class="me-4"><a href="#" class="text-color-swamp-black swamp-black-url text-decoration-none">Доставка и оплата</a></div>
+                <div class="me-4"><a href="#" class="text-color-swamp-black swamp-black-url text-decoration-none">Новости</a></div>
+                <div><a href="#" class="text-color-swamp-black swamp-black-url text-decoration-none">Контакты</a></div>
+            </div>
+            <div class="d-flex justify-content-evenly align-items-center pt-3 pt-lg-0">
+                <div class="pe-3">
+                    <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><img src="assets/images/icon_search.svg" alt="Поиск"></button>
+
+                        <div class="offcanvas offcanvas-top" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                            <div class="d-flex align-items-center offcanvas-body">
+                                <div class="d-flex justify-content-around flex-grow-1">
+                                    <form class="form-search" id="bt-search">
+                                        <input class="form-control fw-700 fs-40 me-2" placeholder="Поиск" aria-label="Search">
+                                    </form>
+                                </div>
+                                <button type="button" class="btn-close text-reset pe-5" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                        </div>
+                </div>
+                <div class="pe-3">
+                    <a href="#" class="text-decoration-none text-color-swamp-black swamp-black-url"><img src="assets/images/icon_profile.svg" alt="Профиль" class="img-fluid"></a>
+                </div>
+                <div class="pe-3">
+                    <a href="#"><img src="assets/images/icon_favorite.svg" alt="Избранное"></a>
+                </div>
+                <div class="cart-count pe-lg-3 pe-xxl-0">
+                    <a href="#" class="text-decoration-none text-color-swamp-black swamp-black-url text-nowrap fs-0"><img src="assets/images/icon_cart.svg" alt="Корзина" class="me-1">Корзина</a>
+                </div>
+                
+                <div class="dropdown d-none d-lg-block d-xxl-none">
+                    <a class="btn" href="javascript:void(0);" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="true">
+                        <span class="navbar-toggler-icon"></span>
+                    </a>
+                  
+                    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">О компании</a></li>
+                      <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">Доставка и оплата</a></li>
+                      <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">Новости</a></li>
+                      <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">Контакты</a></li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+    
+</header>
+
+    
+    <main>
+        <section class="bg-caramel-white pb-3 py-xxl-5 catalog-list">
+            <div class="container-fluid">
+                <div class="container"> 
+                        <div class="pt-3 pb-lg-2 py-xxl-4">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb fs-12">
+                                <li class="breadcrumb-item"><a href="index.html" class="swamp-grey-url">Главная</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Каталог</li>
+                                </ol>
+                            </nav>
+                        </div>
+                        <div>
+                            <div class="fs-40 text-color-swamp-black fw-700">Каталог</div>
+                        </div>
+                        <div class="dropdown d-flex justify-content-between justify-content-lg-end pt-3 pt-lg-0 pb-3 py-xl-4">
+                            <div class="filter rounded-3 d-lg-none">
+                                <button class="btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                                    Фильтры<span class="ms-2 navbar-toggler-icon"></span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="dropdownMenuButton1">
+                                    <li class="dropdown-item">
+                                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header px-3" id="panelsStayOpen-headingOne">
+                                                    <button class="accordion-button fs-18 fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                                    Бренды
+                                                    </button>
+                                                </h2>
+                                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                                    <div class="accordion-body px-3 fs-16">
+                                                        <div class="mb-3">
+                                                            <input type="checkbox" class="checkbox-accept" id="brand-biterix2" required>
+                                                            <label class="form-check-label" for="brand-biterix2">Biretix (6)</label>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <input type="checkbox" class="checkbox-accept" id="brand-cellpro2" required>
+                                                            <label class="form-check-label" for="brand-cellpro2">Cellpro (2)</label>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <input type="checkbox" class="checkbox-accept" id="brand-dermatime2" required>
+                                                            <label class="form-check-label" for="brand-dermatime2">Dermatime (45)</label>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <input type="checkbox" class="checkbox-accept" id="brand-endocare2" required>
+                                                            <label class="form-check-label" for="brand-endocare2">Endocare (12)</label>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <input type="checkbox" class="checkbox-accept" id="brand-endocare-tensage2" required>
+                                                            <label class="form-check-label" for="brand-endocare-tensage2">Endocare Tensage (5)</label>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <input type="checkbox" class="checkbox-accept" id="brand-evenswiss2" required>
+                                                            <label class="form-check-label" for="brand-evenswiss2">Evenswiss (16)</label>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <input type="checkbox" class="checkbox-accept" id="brand-heliocare2" required>
+                                                            <label class="form-check-label" for="brand-heliocare2">Heliocare (20)</label>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <input type="checkbox" class="checkbox-accept" id="brand-keenwell2" required>
+                                                            <label class="form-check-label" for="brand-keenwell2">Keenwell (93)</label>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <input type="checkbox" class="checkbox-accept" id="brand-neoretin2" required>
+                                                            <label class="form-check-label" for="brand-neoretin2">Neoretin (3)</label>
+                                                        </div>
+                                                        <div class="">
+                                                            <input type="checkbox" class="checkbox-accept" id="brand-zimberland2" required>
+                                                            <label class="form-check-label" for="brand-zimberland2">Zimberland (5)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header px-3" id="panelsStayOpen-headingTwo">
+                                                    <button class="accordion-button collapsed fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
+                                                    Проблемы
+                                                    </button>
+                                                </h2>
+                                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                                    <div class="accordion-body px-3 fs-16">
+                                                        <div class="mb-3">
+                                                            <input type="checkbox" class="checkbox-accept" id="problem-acne2" required>
+                                                            <label class="form-check-label" for="problem-acne2">Акне (6)</label>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <input type="checkbox" class="checkbox-accept" id="problem-atopia2" required>
+                                                            <label class="form-check-label" for="problem-atopia2">Атопия кожи (2)</label>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <input type="checkbox" class="checkbox-accept" id="problem-inflamed-skin2" required>
+                                                            <label class="form-check-label" for="problem-inflamed-skin2">Воспаленная кожа (45)</label>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <input type="checkbox" class="checkbox-accept" id="problem-loose-hair2" required>
+                                                            <label class="form-check-label" for="problem-loose-hair2">Выпадение волос (12)</label>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <input type="checkbox" class="checkbox-accept" id="problem-endocare-hyperpigmentation2" required>
+                                                            <label class="form-check-label" for="problem-endocare-hyperpigmentation2">Гиперпигментация (5)</label>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <input type="checkbox" class="checkbox-accept" id="problem-skin-protect2" required>
+                                                            <label class="form-check-label" for="problem-skin-protect2">Защита кожи (16)</label>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <input type="checkbox" class="checkbox-accept" id="problem-eye-circles2" required>
+                                                            <label class="form-check-label" for="problem-eye-circles2">Круги под глазами (20)</label>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <input type="checkbox" class="checkbox-accept" id="problem-kuperoz2" required>
+                                                            <label class="form-check-label" for="problem-kuperoz2">Купероз (93)</label>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <input type="checkbox" class="checkbox-accept" id="problem-clean2" required>
+                                                            <label class="form-check-label" for="problem-clean2">Очищение (3)</label>
+                                                        </div>
+                                                        <div class="">
+                                                            <input type="checkbox" class="checkbox-accept" id="problem-weight2" required>
+                                                            <label class="form-check-label" for="problem-weight2">Лишний вес (5)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header px-3" id="panelsStayOpen-headingThree">
+                                                    <button class="accordion-button collapsed fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
+                                                    Возраст
+                                                    </button>
+                                                </h2>
+                                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                                    <div class="accordion-body px-3 fs-16">
+                                                        <div class="mb-3">
+                                                            <input type="checkbox" class="checkbox-accept" id="age-12-2" required>
+                                                            <label class="form-check-label" for="age-12-2">12+ (62)</label>
+                                                        </div>                                            
+                                                        <div class="mb-3">
+                                                            <input type="checkbox" class="checkbox-accept" id="age-25-2" required>
+                                                            <label class="form-check-label" for="age-25-2">25+ (83)</label>
+                                                        </div>                                            
+                                                        <div class="mb-3">
+                                                            <input type="checkbox" class="checkbox-accept" id="age-30-2" required>
+                                                            <label class="form-check-label" for="age-30-2">30+ (22)</label>
+                                                        </div>                                            
+                                                        <div class="mb-3">
+                                                            <input type="checkbox" class="checkbox-accept" id="age-35-2" required>
+                                                            <label class="form-check-label" for="age-35-2">35+ (9)</label>
+                                                        </div>                                            
+                                                        <div class="mb-3">
+                                                            <input type="checkbox" class="checkbox-accept" id="age-45-2" required>
+                                                            <label class="form-check-label" for="age-45-2">45+ (2)</label>
+                                                        </div>                                            
+                                                        <div class="">
+                                                            <input type="checkbox" class="checkbox-accept" id="age-55-2" required>
+                                                            <label class="form-check-label" for="age-55-2">55+ (0)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        </div>
+                                    </li>
+                                    <div class="d-flex flex-column align-items-center pt-2 pb-2 filter-buttons">
+                                        <button type="submit" name="catalog-show" class="fs-14 fw-600 bg-swamp-black text-color-white rounded-3 py-2 mb-2">Показать (86)</button>
+                                        <button type="submit" name="catalog-clear" class="fs-14 fw-600 text-color-swamp-black rounded-3 py-2">Очистить</button>
+                                    </div>
+                                </ul>                                
+                            </div>
+                            <div class="sort rounded-3">
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    По цене (убыванию)
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">По цене (убыванию)</a></li>
+                                    <li><a class="dropdown-item" href="#">По цене (возрастанию)</a></li>
+                                    <li><a class="dropdown-item" href="#">По дате выпуска</a></li>
+                                </ul>
+                            </div>
+                        </div> 
+                    
+                   
+                    <div>
+                        <div class="row">
+                            <div class="d-none d-lg-block col-4 col-xl-3">
+                                <div>
+                                    <div class="fs-18 fw-700 pb-4 text-color-swamp-black">
+                                        <label for="price-max">Цена</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input type="text" id="price-min" name="min-price" class="me-2 py-3 fs-16 fw-600 rounded-3" readonly>&#8212;<input type="text" id="price-max" name="max-price" class="ms-2 py-3 fs-16 fw-600 rounded-3" readonly>
+    
+                                    </div>
+                                    <div id="slider-range" class="my-4"></div>
+                                </div>
+                                <div>
+                                    <div class="accordion parameters" id="accordionPanelsStayOpenExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                                <button class="accordion-button fs-18 fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                                Бренды
+                                                </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                                <div class="accordion-body fs-16">
+                                                    <div class="mb-3">
+                                                        <input type="checkbox" class="checkbox-accept" id="brand-biterix" required>
+                                                        <label class="form-check-label" for="brand-biterix">Biretix (6)</label>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <input type="checkbox" class="checkbox-accept" id="brand-cellpro" required>
+                                                        <label class="form-check-label" for="brand-cellpro">Cellpro (2)</label>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <input type="checkbox" class="checkbox-accept" id="brand-dermatime" required>
+                                                        <label class="form-check-label" for="brand-dermatime">Dermatime (45)</label>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <input type="checkbox" class="checkbox-accept" id="brand-endocare" required>
+                                                        <label class="form-check-label" for="brand-endocare">Endocare (12)</label>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <input type="checkbox" class="checkbox-accept" id="brand-endocare-tensage" required>
+                                                        <label class="form-check-label" for="brand-endocare-tensage">Endocare Tensage (5)</label>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <input type="checkbox" class="checkbox-accept" id="brand-evenswiss" required>
+                                                        <label class="form-check-label" for="brand-evenswiss">Evenswiss (16)</label>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <input type="checkbox" class="checkbox-accept" id="brand-heliocare" required>
+                                                        <label class="form-check-label" for="brand-heliocare">Heliocare (20)</label>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <input type="checkbox" class="checkbox-accept" id="brand-keenwell" required>
+                                                        <label class="form-check-label" for="brand-keenwell">Keenwell (93)</label>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <input type="checkbox" class="checkbox-accept" id="brand-neoretin" required>
+                                                        <label class="form-check-label" for="brand-neoretin">Neoretin (3)</label>
+                                                    </div>
+                                                    <div class="">
+                                                        <input type="checkbox" class="checkbox-accept" id="brand-zimberland" required>
+                                                        <label class="form-check-label" for="brand-zimberland">Zimberland (5)</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                                <button class="accordion-button collapsed fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
+                                                Проблемы
+                                                </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                                <div class="accordion-body fs-16">
+                                                    <div class="mb-3">
+                                                        <input type="checkbox" class="checkbox-accept" id="problem-acne" required>
+                                                        <label class="form-check-label" for="problem-acne">Акне (6)</label>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <input type="checkbox" class="checkbox-accept" id="problem-atopia" required>
+                                                        <label class="form-check-label" for="problem-atopia">Атопия кожи (2)</label>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <input type="checkbox" class="checkbox-accept" id="problem-inflamed-skin" required>
+                                                        <label class="form-check-label" for="problem-inflamed-skin">Воспаленная кожа (45)</label>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <input type="checkbox" class="checkbox-accept" id="problem-loose-hair" required>
+                                                        <label class="form-check-label" for="problem-loose-hair">Выпадение волос (12)</label>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <input type="checkbox" class="checkbox-accept" id="problem-endocare-hyperpigmentation" required>
+                                                        <label class="form-check-label" for="problem-endocare-hyperpigmentation">Гиперпигментация (5)</label>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <input type="checkbox" class="checkbox-accept" id="problem-skin-protect" required>
+                                                        <label class="form-check-label" for="problem-skin-protect">Защита кожи (16)</label>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <input type="checkbox" class="checkbox-accept" id="problem-eye-circles" required>
+                                                        <label class="form-check-label" for="problem-eye-circles">Круги под глазами (20)</label>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <input type="checkbox" class="checkbox-accept" id="problem-kuperoz" required>
+                                                        <label class="form-check-label" for="problem-kuperoz">Купероз (93)</label>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <input type="checkbox" class="checkbox-accept" id="problem-clean" required>
+                                                        <label class="form-check-label" for="problem-clean">Очищение (3)</label>
+                                                    </div>
+                                                    <div class="">
+                                                        <input type="checkbox" class="checkbox-accept" id="problem-weight" required>
+                                                        <label class="form-check-label" for="problem-weight">Лишний вес (5)</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                                <button class="accordion-button collapsed fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
+                                                Возраст
+                                                </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                                <div class="accordion-body fs-16">
+                                                    <div class="mb-3">
+                                                        <input type="checkbox" class="checkbox-accept" id="age-12" required>
+                                                        <label class="form-check-label" for="age-12">12+ (62)</label>
+                                                    </div>                                            
+                                                    <div class="mb-3">
+                                                        <input type="checkbox" class="checkbox-accept" id="age-25" required>
+                                                        <label class="form-check-label" for="age-25">25+ (83)</label>
+                                                    </div>                                            
+                                                    <div class="mb-3">
+                                                        <input type="checkbox" class="checkbox-accept" id="age-30" required>
+                                                        <label class="form-check-label" for="age-30">30+ (22)</label>
+                                                    </div>                                            
+                                                    <div class="mb-3">
+                                                        <input type="checkbox" class="checkbox-accept" id="age-35" required>
+                                                        <label class="form-check-label" for="age-35">35+ (9)</label>
+                                                    </div>                                            
+                                                    <div class="mb-3">
+                                                        <input type="checkbox" class="checkbox-accept" id="age-45" required>
+                                                        <label class="form-check-label" for="age-45">45+ (2)</label>
+                                                    </div>                                            
+                                                    <div class="">
+                                                        <input type="checkbox" class="checkbox-accept" id="age-55" required>
+                                                        <label class="form-check-label" for="age-55">55+ (0)</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <div class="pt-5">
+                                    <button type="submit" name="catalog-show" class="fs-18 fw-600 bg-swamp-black text-color-white rounded-3 py-3 mb-3">Показать (86)</button>
+                                    <button type="submit" name="catalog-clear" class="fs-18 fw-600 text-color-swamp-black rounded-3 py-3">Очистить</button>
+                                </div>
+
+                            </div>
+
+                            <div class="col-12 col-lg-8 col-xl-9">
+                                <div class="ms-lg-5">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6 col-md-4 col-lg-6 col-xl-4">
+                                            <div class="d-flex flex-column bg-white product-card justify-content-between p-4 mb-4 mx-auto mx-sm-0 bg-white">
+                                                <div class="d-flex d-sm-block flex-column align-items-center">
+                                                <a href="#" class="text-decoration-none">
+                                                    <div class="mb-4"><img src="upload/fluido_mate.png" alt="popular-product-1" class="img-fluid mx-auto" name="product-photo"></div>
+                                                    <div class="fs-12 text-color-swamp-black text-wrap pb-2">Biopure Fluido Mate Rehidrante Dia Увлажняющий флюид с матовым эффектом</div>
+                                                </a>    
+                                                </div>
+                                                <div class="d-flex align-items-end">
+                                                    <div class="fw-600 text-color-candy-orange fs-16 mt-auto pe-2">2 400 ₽</div>
+                                                    <div class="text-color-light-cloudy-blue text-decoration-line-through fs-12 flex-grow-1">
+                                                        2 990 ₽
+                                                    </div>
+                                                    <div class="me-4"><a href="#"><img src="assets/images/arrow-right.svg" alt="Перейти" name="follow-product" class=""></a></div>
+                                                </div>
+                                                        
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-sm-6 col-md-4 col-lg-6 col-xl-4">
+                                            <div class="d-flex flex-column bg-white product-card justify-content-between p-4 mb-4 mx-auto mx-sm-0 bg-white">
+                                                <div class="d-flex d-sm-block flex-column align-items-center">
+                                                <a href="#" class="text-decoration-none">
+                                                    <div class="mb-4"><img src="upload/fluido_mate.png" alt="popular-product-1" class="img-fluid mx-auto" name="product-photo"></div>
+                                                    <div class="fs-12 text-color-swamp-black text-wrap pb-2">Biopure Fluido Mate Rehidrante Dia Увлажняющий флюид с матовым эффектом</div>
+                                                </a>    
+                                                </div>
+                                                <div class="d-flex align-items-end">
+                                                    <div class="fw-600 text-color-candy-orange fs-16 mt-auto pe-2">2 400 ₽</div>
+                                                    <div class="text-color-light-cloudy-blue text-decoration-line-through fs-12 flex-grow-1">
+                                                        2 990 ₽
+                                                    </div>
+                                                    <div class="me-4"><a href="#"><img src="assets/images/arrow-right.svg" alt="Перейти" name="follow-product" class=""></a></div>
+                                                </div>
+                                                        
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-sm-6 col-md-4 col-lg-6 col-xl-4">
+                                            <div class="d-flex flex-column bg-white product-card justify-content-between p-4 mb-4 mx-auto mx-sm-0 bg-white">
+                                                <div class="d-flex d-sm-block flex-column align-items-center">
+                                                <a href="#" class="text-decoration-none">
+                                                    <div class="mb-4"><img src="upload/fluido_mate.png" alt="popular-product-1" class="img-fluid mx-auto" name="product-photo"></div>
+                                                    <div class="fs-12 text-color-swamp-black text-wrap pb-2">Biopure Fluido Mate Rehidrante Dia Увлажняющий флюид с матовым эффектом</div>
+                                                </a>    
+                                                </div>
+                                                <div class="d-flex align-items-end">
+                                                    <div class="fw-600 text-color-candy-orange fs-16 mt-auto pe-2">2 400 ₽</div>
+                                                    <div class="text-color-light-cloudy-blue text-decoration-line-through fs-12 flex-grow-1">
+                                                        2 990 ₽
+                                                    </div>
+                                                    <div class="me-4"><a href="#"><img src="assets/images/arrow-right.svg" alt="Перейти" name="follow-product" class=""></a></div>
+                                                </div>
+                                                        
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-sm-6 col-md-4 col-lg-6 col-xl-4">
+                                            <div class="d-flex flex-column bg-white product-card justify-content-between p-4 mb-4 mx-auto mx-sm-0 bg-white">
+                                                <div class="d-flex d-sm-block flex-column align-items-center">
+                                                <a href="#" class="text-decoration-none">
+                                                    <div class="mb-4"><img src="upload/fluido_mate.png" alt="popular-product-1" class="img-fluid mx-auto" name="product-photo"></div>
+                                                    <div class="fs-12 text-color-swamp-black text-wrap pb-2">Biopure Fluido Mate Rehidrante Dia Увлажняющий флюид с матовым эффектом</div>
+                                                </a>    
+                                                </div>
+                                                <div class="d-flex align-items-end">
+                                                    <div class="fw-600 text-color-candy-orange fs-16 mt-auto pe-2">2 400 ₽</div>
+                                                    <div class="text-color-light-cloudy-blue text-decoration-line-through fs-12 flex-grow-1">
+                                                        2 990 ₽
+                                                    </div>
+                                                    <div class="me-4"><a href="#"><img src="assets/images/arrow-right.svg" alt="Перейти" name="follow-product" class=""></a></div>
+                                                </div>
+                                                        
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-sm-6 col-md-4 col-lg-6 col-xl-4">
+                                            <div class="d-flex flex-column bg-white product-card justify-content-between p-4 mb-4 mx-auto mx-sm-0 bg-white">
+                                                <div class="d-flex d-sm-block flex-column align-items-center">
+                                                <a href="#" class="text-decoration-none">
+                                                    <div class="mb-4"><img src="upload/fluido_mate.png" alt="popular-product-1" class="img-fluid mx-auto" name="product-photo"></div>
+                                                    <div class="fs-12 text-color-swamp-black text-wrap pb-2">Biopure Fluido Mate Rehidrante Dia Увлажняющий флюид с матовым эффектом</div>
+                                                </a>    
+                                                </div>
+                                                <div class="d-flex align-items-end">
+                                                    <div class="fw-600 text-color-candy-orange fs-16 mt-auto pe-2">2 400 ₽</div>
+                                                    <div class="text-color-light-cloudy-blue text-decoration-line-through fs-12 flex-grow-1">
+                                                        2 990 ₽
+                                                    </div>
+                                                    <div class="me-4"><a href="#"><img src="assets/images/arrow-right.svg" alt="Перейти" name="follow-product" class=""></a></div>
+                                                </div>
+                                                        
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-sm-6 col-md-4 col-lg-6 col-xl-4">
+                                            <div class="d-flex flex-column bg-white product-card justify-content-between p-4 mb-4 mx-auto mx-sm-0 bg-white">
+                                                <div class="d-flex d-sm-block flex-column align-items-center">
+                                                <a href="#" class="text-decoration-none">
+                                                    <div class="mb-4"><img src="upload/fluido_mate.png" alt="popular-product-1" class="img-fluid mx-auto" name="product-photo"></div>
+                                                    <div class="fs-12 text-color-swamp-black text-wrap pb-2">Biopure Fluido Mate Rehidrante Dia Увлажняющий флюид с матовым эффектом</div>
+                                                </a>    
+                                                </div>
+                                                <div class="d-flex align-items-end">
+                                                    <div class="fw-600 text-color-candy-orange fs-16 mt-auto pe-2">2 400 ₽</div>
+                                                    <div class="text-color-light-cloudy-blue text-decoration-line-through fs-12 flex-grow-1">
+                                                        2 990 ₽
+                                                    </div>
+                                                    <div class="me-4"><a href="#"><img src="assets/images/arrow-right.svg" alt="Перейти" name="follow-product" class=""></a></div>
+                                                </div>
+                                                        
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-sm-6 col-md-4 col-lg-6 col-xl-4">
+                                            <div class="d-flex flex-column bg-white product-card justify-content-between p-4 mb-4 mx-auto mx-sm-0 bg-white">
+                                                <div class="d-flex d-sm-block flex-column align-items-center">
+                                                <a href="#" class="text-decoration-none">
+                                                    <div class="mb-4"><img src="upload/fluido_mate.png" alt="popular-product-1" class="img-fluid mx-auto" name="product-photo"></div>
+                                                    <div class="fs-12 text-color-swamp-black text-wrap pb-2">Biopure Fluido Mate Rehidrante Dia Увлажняющий флюид с матовым эффектом</div>
+                                                </a>    
+                                                </div>
+                                                <div class="d-flex align-items-end">
+                                                    <div class="fw-600 text-color-candy-orange fs-16 mt-auto pe-2">2 400 ₽</div>
+                                                    <div class="text-color-light-cloudy-blue text-decoration-line-through fs-12 flex-grow-1">
+                                                        2 990 ₽
+                                                    </div>
+                                                    <div class="me-4"><a href="#"><img src="assets/images/arrow-right.svg" alt="Перейти" name="follow-product" class=""></a></div>
+                                                </div>
+                                                        
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-sm-6 col-md-4 col-lg-6 col-xl-4">
+                                            <div class="d-flex flex-column bg-white product-card justify-content-between p-4 mb-4 mx-auto mx-sm-0 bg-white">
+                                                <div class="d-flex d-sm-block flex-column align-items-center">
+                                                <a href="#" class="text-decoration-none">
+                                                    <div class="mb-4"><img src="upload/fluido_mate.png" alt="popular-product-1" class="img-fluid mx-auto" name="product-photo"></div>
+                                                    <div class="fs-12 text-color-swamp-black text-wrap pb-2">Biopure Fluido Mate Rehidrante Dia Увлажняющий флюид с матовым эффектом</div>
+                                                </a>    
+                                                </div>
+                                                <div class="d-flex align-items-end">
+                                                    <div class="fw-600 text-color-candy-orange fs-16 mt-auto pe-2">2 400 ₽</div>
+                                                    <div class="text-color-light-cloudy-blue text-decoration-line-through fs-12 flex-grow-1">
+                                                        2 990 ₽
+                                                    </div>
+                                                    <div class="me-4"><a href="#"><img src="assets/images/arrow-right.svg" alt="Перейти" name="follow-product" class=""></a></div>
+                                                </div>
+                                                        
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-sm-6 col-md-4 col-lg-6 col-xl-4">
+                                            <div class="d-flex flex-column bg-white product-card justify-content-between p-4 mb-4 mx-auto mx-sm-0 bg-white">
+                                                <div class="d-flex d-sm-block flex-column align-items-center">
+                                                <a href="#" class="text-decoration-none">
+                                                    <div class="mb-4"><img src="upload/fluido_mate.png" alt="popular-product-1" class="img-fluid mx-auto" name="product-photo"></div>
+                                                    <div class="fs-12 text-color-swamp-black text-wrap pb-2">Biopure Fluido Mate Rehidrante Dia Увлажняющий флюид с матовым эффектом</div>
+                                                </a>    
+                                                </div>
+                                                <div class="d-flex align-items-end">
+                                                    <div class="fw-600 text-color-candy-orange fs-16 mt-auto pe-2">2 400 ₽</div>
+                                                    <div class="text-color-light-cloudy-blue text-decoration-line-through fs-12 flex-grow-1">
+                                                        2 990 ₽
+                                                    </div>
+                                                    <div class="me-4"><a href="#"><img src="assets/images/arrow-right.svg" alt="Перейти" name="follow-product" class=""></a></div>
+                                                </div>
+                                                        
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-sm-6 col-md-4 col-lg-6 col-xl-4">
+                                            <div class="d-flex flex-column bg-white product-card justify-content-between p-4 mb-4 mx-auto mx-sm-0 bg-white">
+                                                <div class="d-flex d-sm-block flex-column align-items-center">
+                                                <a href="#" class="text-decoration-none">
+                                                    <div class="mb-4"><img src="upload/fluido_mate.png" alt="popular-product-1" class="img-fluid mx-auto" name="product-photo"></div>
+                                                    <div class="fs-12 text-color-swamp-black text-wrap pb-2">Biopure Fluido Mate Rehidrante Dia Увлажняющий флюид с матовым эффектом</div>
+                                                </a>    
+                                                </div>
+                                                <div class="d-flex align-items-end">
+                                                    <div class="fw-600 text-color-candy-orange fs-16 mt-auto pe-2">2 400 ₽</div>
+                                                    <div class="text-color-light-cloudy-blue text-decoration-line-through fs-12 flex-grow-1">
+                                                        2 990 ₽
+                                                    </div>
+                                                    <div class="me-4"><a href="#"><img src="assets/images/arrow-right.svg" alt="Перейти" name="follow-product" class=""></a></div>
+                                                </div>
+                                                        
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-sm-6 col-md-4 col-lg-6 col-xl-4">
+                                            <div class="d-flex flex-column bg-white product-card justify-content-between p-4 mb-4 mx-auto mx-sm-0 bg-white">
+                                                <div class="d-flex d-sm-block flex-column align-items-center">
+                                                <a href="#" class="text-decoration-none">
+                                                    <div class="mb-4"><img src="upload/fluido_mate.png" alt="popular-product-1" class="img-fluid mx-auto" name="product-photo"></div>
+                                                    <div class="fs-12 text-color-swamp-black text-wrap pb-2">Biopure Fluido Mate Rehidrante Dia Увлажняющий флюид с матовым эффектом</div>
+                                                </a>    
+                                                </div>
+                                                <div class="d-flex align-items-end">
+                                                    <div class="fw-600 text-color-candy-orange fs-16 mt-auto pe-2">2 400 ₽</div>
+                                                    <div class="text-color-light-cloudy-blue text-decoration-line-through fs-12 flex-grow-1">
+                                                        2 990 ₽
+                                                    </div>
+                                                    <div class="me-4"><a href="#"><img src="assets/images/arrow-right.svg" alt="Перейти" name="follow-product" class=""></a></div>
+                                                </div>
+                                                        
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-sm-6 col-md-4 col-lg-6 col-xl-4">
+                                            <div class="d-flex flex-column bg-white product-card justify-content-between p-4 mb-4 mx-auto mx-sm-0 bg-white">
+                                                <div class="d-flex d-sm-block flex-column align-items-center">
+                                                <a href="#" class="text-decoration-none">
+                                                    <div class="mb-4"><img src="upload/fluido_mate.png" alt="popular-product-1" class="img-fluid mx-auto" name="product-photo"></div>
+                                                    <div class="fs-12 text-color-swamp-black text-wrap pb-2">Biopure Fluido Mate Rehidrante Dia Увлажняющий флюид с матовым эффектом</div>
+                                                </a>    
+                                                </div>
+                                                <div class="d-flex align-items-end">
+                                                    <div class="fw-600 text-color-candy-orange fs-16 mt-auto pe-2">2 400 ₽</div>
+                                                    <div class="text-color-light-cloudy-blue text-decoration-line-through fs-12 flex-grow-1">
+                                                        2 990 ₽
+                                                    </div>
+                                                    <div class="me-4"><a href="#"><img src="assets/images/arrow-right.svg" alt="Перейти" name="follow-product" class=""></a></div>
+                                                </div>
+                                                        
+                                                
+                                            </div>
+                                        </div>
+
+                                        
+                                        
+
+                                    </div>
+
+                                        <div class="d-flex d-sm-block justify-content-center">
+                                            <nav aria-label="pages" class="pt-4">
+                                                <ul class="pagination d-flex align-items-center fs-18 fw-700">
+                                                <li class="page-item-prev me-5">
+                                                    <a class="page-link page-link-disabled">Previous</a>
+                                                </li>
+                                                <li class=" me-4"><a class="active-page px-1" href="#">01</a></li>
+                                                <li class="" aria-current="page">
+                                                    <a class=" px-1 me-4" href="#">02</a>
+                                                </li>
+                                                <li class=""><a class="px-1" href="#">03</a></li>
+                                                <li class="page-item-next ms-5">
+                                                    <a class="page-link" href="#">Next</a>
+                                                </li>
+                                                </ul>
+                                            </nav>  
+                                        </div>                             
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <section class="bg-caramel-white py-3 py-md-5 pb-xxl-232 why-we">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-3">
+                        <div class="d-flex flex-column pe-5 me-5">
+                            <div class="text-nowrap text-color-swamp-black fs-28 fs-md-40 fw-700 z-10">Почему мы?</div>
+                        </div>
+                    </div>    
+                    <div class="col-12 col-lg-9">
+                        <div class="d-flex flex-column pt-3 ps-lg-5 ms-lg-5">
+                            <div class="z-10">
+                                Предлагаем Вам широкий ассортимент средств по эстетике лица, тела, волос. Каталог косметики включает в себя весь спектр товаров, каждый из которых дополнен детальным описанием состава, оказываемого действия и способа применения. Прямые поставки от ведущих европейских производителей. Все товары сертифицированы.
+                                <br><br>
+                                И нет сомнений, что многие известные личности формируют глобальную экономическую сеть и при этом -  подвергнуты целой серии независимых исследований.
+                            </div>
+                            <div class="pt-5">
+                                <button name="button-more" class="bg-mint-green text-color-white fs-14 fw-600 px-5 py-3">Подробнее <img src="assets/images/arrow_right.svg" alt="Стрелка вправо"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+</main>
+<footer class="bg-swamp-black footer-decoration fw-600">
+    <div class="container-fluid pt-4 pt-md-5">
+        <div class="container pb-2 pb-sm-3 pb-md-5 pt-xl-4">
+            <div class="row pb-xl-193">
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="d-flex flex-column align-items-center align-items-lg-start text-color-white mb-4 mb-sm-0">
+                            <div class="d-flex pb-4">
+                                <div class="me-3 social-button"><a href="#"><img src="assets/images/icon_facebook_2.svg"  class="icon-center" alt="icon-facebook-2"></a></div>
+                                <div class="me-3 social-button"><a href="#"><img src="assets/images/icon_vk_2.svg" class="icon-center" alt="icon-facebook-2"></a></div>
+                                <div class="social-button"><a href="#"><img src="assets/images/icon_instagram_2.svg" class="icon-center" alt="icon-facebook-2"></a></div>
+                            </div>
+                            <div class="tel fs-24 fw-400 pt-2 pb-3">
+                                <a href="tel:+74995013355" class="text-color-white white-url">+7 (499) 501-33-55</a>
+                            </div>
+                            <div class="fs-14 fw-300">
+                                <a href="mailto:info@e-kosmetika1.ru" class="text-color-white white-url">info@e-kosmetika1.ru</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="d-flex flex-column align-items-center align-items-lg-start fs-18">
+                            <a href="#" class="mb-2 text-color-cloudy-blue cloudy-blue-url">О компании</a>
+                            <a href="#" class="mb-2 text-color-cloudy-blue cloudy-blue-url">Доставка и оплата</a>
+                            <a href="#" class="mb-2 text-color-cloudy-blue cloudy-blue-url">Новости</a>
+                            <a href="#" class="text-color-cloudy-blue cloudy-blue-url">Контакты</a>
+                        </div>
+                    </div>
+                <div class="col-12 col-lg-4">
+                    <div class="d-flex flex-column align-items-center align-items-lg-start ms-xl-5 mt-4 mt-lg-0 ps-xl-5 z-10">
+                        <div class="pb-3">
+                            <a href="#"><img src="assets/images/logo_footer.png" alt="Логотип"></a>
+                        </div>
+                        <div class="text-color-caramel-white fs-18 text-wrap">
+                            Интернет магазин<br>косметики
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            <div class="container-fluid">
+                <div class="decoration-line"></div>
+            </div>
+                
+        <div class="container py-2 pb-xl-5 pt-xl-4">
+            <div class="d-flex align-items-center justify-content-center justify-content-lg-between fs-14 fw-300 text-color-white political flex-wrap">
+                <div class="d-flex me-md-4 mt-2 flex-wrap flex-sm-nowrap justify-content-center">
+                    <div class="pe-1">© 2022 «e-kosmetika»</div>
+                    
+                </div>
+
+                <div class="d-flex text-color-swamp-grey fs-12">
+                    <div class="pe-2 pe-sm-4 mt-2"><a href="#" class="text-decoration-underline">Политика конфиденциальности</a></div>
+                    <div class="mt-2"><a href="#" class="text-decoration-underline">Пользовательское соглашение</a></div>
+                </div> 
+
+                <div class="d-flex align-items-center mt-2 ms-lg-3">
+                    <div>made by</div>
+                    <div class="ms-3"><a href="#"><img src="assets/images/logo_semup.svg" alt="semup"></a></div>
+                </div>
+            </div>
+        </div>
+</footer>
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="assets/js/bootstrap.bundle.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+</body>
+</html>

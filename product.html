@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/Mont/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+    <title>e-kosmetika</title>
+</head>
+<body>
+    <header class="">
+        
+        <div class="d-flex justify-content-center justify-content-lg-between text-nowrap fs-14 text-color-swamp-black fw-600 py-1 px-5 bg-white flex-wrap">
+            <div class="d-flex flex-column flex-sm-row flex-wrap flex-sm-nowrap justify-content-center justify-content-sm-start">
+                <div class="d-flex pe-sm-5 justify-content-center align-items-center">
+                    <div class="bg-light-cloudy-blue rounded-pill text-color-ultramarine me-2 px-3 text-nowrap">9.00 - 22.00</div>
+                    <div>Пн-Пт</div>
+                </div>
+                <div class="d-flex align-items-center py-2 py-sm-0">
+                    <div class="fs-16 pe-3">
+                        <a href="tel:+74995013355" class="text-decoration-none text-color-swamp-black swamp-black-url fs-18">+7 (499) 501-33-55</a>
+                    </div>
+                    <div class="">
+                        <a href="tel:+74995013355" class="text-color-ultramarine ultramarine-url">Обратный звонок</a>
+                    </div>                
+                </div>
+            </div>
+            <div class="d-flex mt-sm-2 mt-md-0">
+                <div class="ms-3 me-4">
+                    <a href="mailto:info@e-kosmetika1.ru" class="text-decoration-none text-color-swamp-black swamp-black-url">info@e-kosmetika1.ru</a>
+                </div>
+                <div class="d-flex">
+                    <div class=""><a href="#"><img src="assets/images/icon_facebook_1.svg"  class="" alt="icon-facebook-1"></a></div>
+                    <div class="px-3"><a href="#"><img src="assets/images/icon_vk_1.svg" class="" alt="icon-vk-1"></a></div>
+                    <div class=""><a href="#"><img src="assets/images/icon_instagram_1.svg" class="" alt="icon-instagram-1"></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-column flex-lg-row justify-content-lg-between bg-caramel-white px-5 py-3">
+            <div class="d-flex align-items-center">
+                <div class="d-flex flex-column flex-sm-row flex-grow-1 align-items-center">
+                    <div class="d-flex d-sm-inline flex-nowrap flex-sm-wrap me-sm-4 mb-2 mb-sm-0">
+                        <img src="assets/images/logo_header.png" alt="Логотип" class="me-3 me-sm-0">
+                        <div class="dropdown d-sm-none">
+                            <a class="" href="javascript:void(0);" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="true">
+                                <span class="navbar-toggler-icon"></span>
+                            </a>
+                          
+                            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                              <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">О компании</a></li>
+                              <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">Доставка и оплата</a></li>
+                              <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">Новости</a></li>
+                              <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">Контакты</a></li>
+                            </ul>
+                          </div>                            
+                    </div>
+                    <a data-bs-toggle="offcanvas" href="#offcanvasCatalog" role="button" class="text-decoration-none text-color-white white-url" aria-controls="offcanvasCatalog" id="link-catalog">
+                        <div class="text-color-white bg-candy-orange rounded-2 mt-2 mt-sm-0 p-2 px-3 text-nowrap">
+                            <img src="assets/images/icon_catalog.svg" class="me-2 icon-catalog" id="icon-catalog">каталог
+                        </div>
+                    </a>
+
+                    <div class="offcanvas offcanvas-top z--1" tabindex="-1" id="offcanvasCatalog" aria-labelledby="offcanvasTopLabel" data-bs-backdrop="false">
+                        <div class="offcanvas-body offcat">
+                            <div class="container-fluid bg-white">
+                                <div class="container">
+                                    <div class="accordion filtres d-md-none" id="accordionPanelsStayOpenExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                                <button class="accordion-button fs-18 fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                                Бренды
+                                                </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                                <div class="accordion-body fs-16">
+                                                    <div class="d-flex flex-column">
+                                                        <a href="#" class="catalog-url mb-3">Biretix (6)</a>
+                                                        <a href="#" class="catalog-url mb-3">Cellpro (2)</a>
+                                                        <a href="#" class="catalog-url mb-3">Dermatime (45)</a>
+                                                        <a href="#" class="catalog-url mb-3">Endocare (12)</a>
+                                                        <a href="#" class="catalog-url mb-3">Endocare Tensage (5)</a>
+                                                        <a href="#" class="catalog-url mb-3">Evenswiss (16)</a>
+                                                        <a href="#" class="catalog-url mb-3">Heliocare (20)</a>
+                                                        <a href="#" class="catalog-url mb-3">Keenwell (93)</a>
+                                                        <a href="#" class="catalog-url mb-3">Neoretin (3)</a>
+                                                        <a href="#" class="catalog-url">Zimberland (3)</a>
+                                                    </div>    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                                <button class="accordion-button collapsed fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
+                                                Проблемы
+                                                </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                                <div class="accordion-body fs-16">
+                                                    <div class="d-flex flex-column">
+                                                        <a href="#" class="catalog-url mb-3">Атопия кожи (3)</a>
+                                                        <a href="#" class="catalog-url mb-3">Акне (18)</a>
+                                                        <a href="#" class="catalog-url mb-3">Воспаленная кожа (15)</a>
+                                                        <a href="#" class="catalog-url mb-3">Выпадение волос (4)</a>
+                                                        <a href="#" class="catalog-url mb-3">Гиперпигментация (11)</a>
+                                                        <a href="#" class="catalog-url mb-3">Защита кожи (25)</a>
+                                                        <a href="#" class="catalog-url mb-3">Круги под глазами (11)</a>
+                                                        <a href="#" class="catalog-url mb-3">Купероз (5)</a>
+                                                        <a href="#" class="catalog-url mb-3">Лифтинг (33)</a>
+                                                        <a href="#" class="catalog-url mb-3">Лишний вес (7)</a>
+                                                        <a href="#" class="catalog-url mb-3">Морщины (64)</a>
+                                                        <a href="#" class="catalog-url mb-3">Псориаз (2)</a>
+                                                        <a href="#" class="catalog-url mb-3">Регенерация (50)</a>
+                                                        <a href="#" class="catalog-url mb-3">Себорея (16)</a>
+                                                        <a href="#" class="catalog-url mb-3">Солнечная защита (24)</a>
+                                                        <a href="#" class="catalog-url mb-3">Старение кожи (72)</a>
+                                                        <a href="#" class="catalog-url mb-3">Стрии (4)</a>
+                                                        <a href="#" class="catalog-url mb-3">Тусклая кожа (34)</a>
+                                                        <a href="#" class="catalog-url mb-3">Фотостарение (35)</a>
+                                                        <a href="#" class="catalog-url mb-3">Целлюлит (5)</a>
+                                                        <a href="#" class="catalog-url mb-3">Очищение (30)</a>
+                                                        <a href="#" class="catalog-url">Потеря влаги (51)</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                                <button class="accordion-button collapsed fw-700" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
+                                                Возраст
+                                                </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                                <div class="accordion-body fs-16">
+                                                    <div class="d-flex flex-column">
+                                                        
+                                                        <a href="#" class="catalog-url mb-3">12+ (62)</a>
+                                                        <a href="#" class="catalog-url mb-3">25+ (83)</a>
+                                                        <a href="#" class="catalog-url mb-3">30+ (22)</a>
+                                                        <a href="#" class="catalog-url mb-3">35+ (9)</a>
+                                                        <a href="#" class="catalog-url mb-3">45+ (2)</a>
+                                                        <a href="#" class="catalog-url mb-3">55+ (1)</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                    </div>
+
+                                    <div class="d-none d-md-flex flex-wrap justify-content-between text-color-swamp-black mt-4">
+                                        <div class="d-flex flex-column">
+                                            <div class="fs-18 fw-700 mb-4">Бренды</div>
+                                            <a href="#" class="catalog-url mb-2">Biretix (6)</a>
+                                            <a href="#" class="catalog-url mb-2">Cellpro (2)</a>
+                                            <a href="#" class="catalog-url mb-2">Dermatime (45)</a>
+                                            <a href="#" class="catalog-url mb-2">Endocare (12)</a>
+                                            <a href="#" class="catalog-url mb-2">Endocare Tensage (5)</a>
+                                            <a href="#" class="catalog-url mb-2">Evenswiss (16)</a>
+                                            <a href="#" class="catalog-url mb-2">Heliocare (20)</a>
+                                            <a href="#" class="catalog-url mb-2">Keenwell (93)</a>
+                                            <a href="#" class="catalog-url mb-2">Neoretin (3)</a>
+                                            <a href="#" class="catalog-url">Zimberland (3)</a>
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <div class="fs-18 fw-700 mb-4">Проблемы</div>
+                                            <a href="#" class="catalog-url mb-2">Атопия кожи (3)</a>
+                                            <a href="#" class="catalog-url mb-2">Акне (18)</a>
+                                            <a href="#" class="catalog-url mb-2">Воспаленная кожа (15)</a>
+                                            <a href="#" class="catalog-url mb-2">Выпадение волос (4)</a>
+                                            <a href="#" class="catalog-url mb-2">Гиперпигментация (11)</a>
+                                            <a href="#" class="catalog-url mb-2">Защита кожи (25)</a>
+                                            <a href="#" class="catalog-url mb-2">Круги под глазами (11)</a>
+                                            <a href="#" class="catalog-url mb-2">Купероз (5)</a>
+                                            <a href="#" class="catalog-url mb-2">Лифтинг (33)</a>
+                                            <a href="#" class="catalog-url mb-2">Лишний вес (7)</a>
+                                            <a href="#" class="catalog-url mb-2">Морщины (64)</a>
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <a href="#" class="catalog-url mb-2">Псориаз (2)</a>
+                                            <a href="#" class="catalog-url mb-2">Регенерация (50)</a>
+                                            <a href="#" class="catalog-url mb-2">Себорея (16)</a>
+                                            <a href="#" class="catalog-url mb-2">Солнечная защита (24)</a>
+                                            <a href="#" class="catalog-url mb-2">Старение кожи (72)</a>
+                                            <a href="#" class="catalog-url mb-2">Стрии (4)</a>
+                                            <a href="#" class="catalog-url mb-2">Тусклая кожа (34)</a>
+                                            <a href="#" class="catalog-url mb-2">Фотостарение (35)</a>
+                                            <a href="#" class="catalog-url mb-2">Целлюлит (5)</a>
+                                            <a href="#" class="catalog-url mb-2">Очищение (30)</a>
+                                            <a href="#" class="catalog-url">Потеря влаги (51)</a>
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <div class="fs-18 fw-700 mb-4">Возраст</div>
+                                            <a href="#" class="catalog-url mb-2">12+ (62)</a>
+                                            <a href="#" class="catalog-url mb-2">25+ (83)</a>
+                                            <a href="#" class="catalog-url mb-2">30+ (22)</a>
+                                            <a href="#" class="catalog-url mb-2">35+ (9)</a>
+                                            <a href="#" class="catalog-url mb-2">45+ (2)</a>
+                                            <a href="#" class="catalog-url mb-2">55+ (1)</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="dropdown d-none d-sm-block d-lg-none">
+                    <a class="btn" href="javascript:void(0);" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="true">
+                        <span class="navbar-toggler-icon"></span>
+                    </a>
+                  
+                    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">О компании</a></li>
+                      <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">Доставка и оплата</a></li>
+                      <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">Новости</a></li>
+                      <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">Контакты</a></li>
+                    </ul>
+                  </div>                        
+            </div>
+            <div class="d-none d-xxl-flex menu align-items-center text-nowrap fs-14 fw-600">
+                <div class="me-4"><a href="#" class="text-color-swamp-black swamp-black-url text-decoration-none">О компании</a></div>
+                <div class="me-4"><a href="#" class="text-color-swamp-black swamp-black-url text-decoration-none">Доставка и оплата</a></div>
+                <div class="me-4"><a href="#" class="text-color-swamp-black swamp-black-url text-decoration-none">Новости</a></div>
+                <div><a href="#" class="text-color-swamp-black swamp-black-url text-decoration-none">Контакты</a></div>
+            </div>
+            <div class="d-flex justify-content-evenly align-items-center pt-3 pt-lg-0">
+                <div class="pe-3">
+                    <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><img src="assets/images/icon_search.svg" alt="Поиск"></button>
+
+                        <div class="offcanvas offcanvas-top" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                            <div class="d-flex align-items-center offcanvas-body">
+                                <div class="d-flex justify-content-around flex-grow-1">
+                                    <form class="form-search" id="bt-search">
+                                        <input class="form-control fw-700 fs-40 me-2" placeholder="Поиск" aria-label="Search">
+                                    </form>
+                                </div>
+                                <button type="button" class="btn-close text-reset pe-5" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                        </div>
+                </div>
+                <div class="pe-3">
+                    <a href="#" class="text-decoration-none text-color-swamp-black swamp-black-url"><img src="assets/images/icon_profile.svg" alt="Профиль" class="img-fluid"></a>
+                </div>
+                <div class="pe-3">
+                    <a href="#"><img src="assets/images/icon_favorite.svg" alt="Избранное"></a>
+                </div>
+                <div class="cart-count pe-lg-3 pe-xxl-0">
+                    <a href="#" class="text-decoration-none text-color-swamp-black swamp-black-url text-nowrap fs-0"><img src="assets/images/icon_cart.svg" alt="Корзина" class="me-1">Корзина</a>
+                </div>
+                
+                <div class="dropdown d-none d-lg-block d-xxl-none">
+                    <a class="btn" href="javascript:void(0);" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="true">
+                        <span class="navbar-toggler-icon"></span>
+                    </a>
+                  
+                    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">О компании</a></li>
+                      <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">Доставка и оплата</a></li>
+                      <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">Новости</a></li>
+                      <li><a class="dropdown-item text-color-swamp-black swamp-black-url text-decoration-none" href="#">Контакты</a></li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+    
+</header>
+
+    
+    <main>
+        <section class="bg-caramel-white py-lg-5 item-card">
+            <div class="container-fluid">
+            <div class="container">
+                    <div class="pt-4 pb-2 py-lg-4">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb fs-12">
+                            <li class="breadcrumb-item"><a href="index.html" class="swamp-grey-url">Главная</a></li>
+                            <li class="breadcrumb-item"><a href="catalog.html" class="swamp-grey-url">Каталог</a></li>
+                            <li class="breadcrumb-item"><a href="#" class="swamp-grey-url">Очищение и тонизирование</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Premier Flower Toning Up Water</li>
+                            </ol>
+                        </nav>
+                    </div>
+
+                <div class="row pb-3 pb-sm-5">
+                    <div class="col-12 col-md-7 col-lg-5 bg-caramel-white">
+                        <div class="bg-white py-3 py-md-5 me-md-3">
+                            <div class="slider-product">
+                                <div class="col-4">
+                                    <img src="upload/flower_toning.png" class="img-fluid m-auto d-md-none">
+                                    <a data-fancybox data-src="upload/flower_toningXL.png"><img src="upload/flower_toningXL.png" class="img-fluid m-auto d-none d-md-block" alt=""></a>
+                                </div>
+                                <div class="col-4">
+                                    <a data-fancybox data-src="upload/ampollas_triple.png"><img src="upload/ampollas_triple.png" class="img-fluid m-auto"></a>
+                                    
+                                </div>
+                                <div class="col-4">
+                                    <a data-fancybox data-src="upload/cream_day.png"><img src="upload/cream_day.png" class="img-fluid m-auto"></a>
+                                    
+                                </div>
+                                <div class="col-4">
+                                    <a data-fancybox data-src="upload/endocare_mask.png"><img src="upload/endocare_mask.png" class="img-fluid m-auto"></a>
+                                    
+                                </div>
+                                <div class="col-4">
+                                    <a data-fancybox data-src="upload/mascarilla_activa.png"><img src="upload/mascarilla_activa.png" class="img-fluid m-auto"></a>
+                                    
+                                </div>
+                            </div>
+                            <div class="slider-nav d-flex flex-nowrap pt-4">
+                                <div class="mx-1">
+                                    <img src="upload/flower_toning.png" class="img-fluid">
+                                </div>
+                                <div class="mx-1">
+                                    <img src="upload/ampollas_triple.png" class="img-fluid">
+                                </div>
+                                <div class="mx-1">
+                                    <img src="upload/cream_day.png" class="img-fluid">
+                                </div>
+                                <div class="mx-1">
+                                    <img src="upload/endocare_mask.png" class="img-fluid">
+                                </div>
+                                <div class="mx-1">
+                                    <img src="upload/mascarilla_activa.png" class="img-fluid">
+                                </div>
+                            </div>                     
+                        </div>
+                        <div class="d-none d-md-block d-lg-none pt-4">
+                            <div class="accordion description" id="accordionPanelsStayOpenExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                            Описание
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                            <div class="accordion-body">
+                                                Легкая гелевая маска для ухода за смешанной и жирной кожей, в т.ч. с акне.<br> Эффективно воздействует на проблемную кожу, нормализует уровень pH, обладает противовоспалительным действием, абсорбирует и удаляет загрязнение кожи, избыточное количество сального секрета, уменьшает диаметр пор, оказывает вяжущее, антисептическое действие, выравнивает текстуру кожи.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                            О доставке
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                            <div class="accordion-body">
+                                                О доставке
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                            Отзывы
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                            <div class="accordion-body">
+                                                Отзывы
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div>
+
+                    <div class="col-12 col-md-5 col-lg-7">
+                        <div class="ms-md-5 mb-md-5">
+                            <div class="mt-3 mt-md-0">
+                                <a href="#" class="fs-14 fw-600 text-color-ultramarine ultramarine-url">Keenwell</a>
+                            </div>
+                            <div class="fs-24 fw-600 text-color-swamp-black lh-sm py-2">
+                                Premier Flower Toning Up Water Цветочный тоник для чувствительной кожи
+                            </div>
+                            <div class="d-flex align-items-end pt-2 pt-md-4 pb-2">
+                                <div class="fs-18 fw-800 text-color-swamp-black pe-3">2 400 ₽</div>
+                                <div class="text-decoration-line-through fs-14 fw-600 text-color-light-cloudy-blue">2 990 ₽</div>
+                            </div>
+                            <div class="d-flex flex-md-wrap flex-lg-nowrap align-items-center mb-4 mb-md-0">
+                                <div class="d-flex  align-items-center product-count">
+                                    <button name="minus" id="minus" class="p-2 disabled"><img src="assets/images/icon_minus.svg"></button><div class="fs-18 fw-800 text-center" id="product-count"></div><button name="plus" id="plus" class="p-2"><img src="assets/images/icon_plus.svg"></button>
+                                </div>
+
+                                <div class="d-flex align-items-center mt-md-3 mt-lg-0">
+                                    <div class="bg-ultramarine rounded-2 py-2 px-4 ms-3 ms-md-0 ms-lg-3 me-3">
+                                        <a href="#" class="text-color-white text-decoration-none white-url text-nowrap">В корзину<img src="assets/images/icon_shopping_bag.svg" class="ps-2 py-1"></a>
+                                    </div>
+                                    <button id="favourite-product" class="favourite-product-active"></button>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" fs-14 ms-md-5">
+                            <div class="pb-3">
+                                Розовый тоник с вытяжкой корня лотоса идеален для чувствительной кожи. Увлажняет, смягчает, освежает и тонизирует кожу, придает ей мягкость и шелковистость, нормализует рН, усиливает защитные свойства кожи, придает ощущение комфорта. Не содержит спирта.
+                            </div>
+                            <div class="pb-3">
+                                <div class="pb-2 text-color-cloudy-blue">Применение</div>
+                                <div>Протирать кожу тником ежедневно после применения очищающих средств.</div>
+                            </div>
+                            <div class="pb-3">
+                                <div class="pb-2 text-color-cloudy-blue">Активные ингредиенты</div>
+                                <div>Вытяжка корня лотоса.</div>
+                            </div>
+                            <div class="pb-3">
+                                <div class="pb-2 text-color-cloudy-blue">Объём</div>
+                                <div>80 мл.</div>
+                            </div>
+                            <div>
+                                <span class="text-color-candy-orange">Внимание!</span> Внешний вид товара может отличаться от представленного на сайте.
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+
+
+                <div class="d-md-none d-lg-block pt-4">
+                    <div class="accordion description" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                    Описание
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                    <div class="accordion-body">
+                                        Легкая гелевая маска для ухода за смешанной и жирной кожей, в т.ч. с акне.<br> Эффективно воздействует на проблемную кожу, нормализует уровень pH, обладает противовоспалительным действием, абсорбирует и удаляет загрязнение кожи, избыточное количество сального секрета, уменьшает диаметр пор, оказывает вяжущее, антисептическое действие, выравнивает текстуру кожи.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                    О доставке
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body">
+                                        О доставке
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                    Отзывы
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                    <div class="accordion-body">
+                                        Отзывы
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>   
+        </section>
+
+        <section class="pt-3 pt-lg-4 pb-3 pb-md-5 bg-gradient-sand similar-decoration">
+            <div class="container-fluid popular-decoration">
+                <div class="container">
+                        <div class="d-flex flex-column flex-sm-row align-items-center pt-xxl-4 pb-3 pb-sm-4 pb-xl-5 pe-sm-4 flex-wrap">
+                            <div class="d-flex align-items-center flex-grow-1">
+                                <div class="text-nowrap text-color-swamp-black fs-28 fs-md-40 fw-700 same-products">Похожие товары</div>
+                            </div>
+                                <div class="but-arrows-popular z-10"></div>
+                            
+                        </div>
+                            <div class="pb-4 slider-popular">
+                                <div class="col-3">
+                                    <div class="d-flex flex-column bg-white product-card justify-content-between p-4 mx-auto mx-sm-0">
+                                        <a href="#" class="text-decoration-none">
+                                           <div class="mb-4"><img src="upload/fluido_mate.png" alt="popular-product-1" class="img-fluid mx-auto" name="product-photo"></div>
+                                           <div class="fs-12 text-color-swamp-black text-wrap pb-2">Biopure Fluido Mate Rehidrante Dia Увлажняющий флюид с матовым эффектом</div>
+                                        </a>
+                                        <div class="d-flex align-items-end">
+                                            <div class="fw-600 text-color-candy-orange fs-16 mt-auto pe-2">2 400 ₽</div>
+                                            <div class="text-color-light-cloudy-blue text-decoration-line-through fs-12 flex-grow-1">
+                                                2 990 ₽
+                                            </div>
+                                            <div class="me-4"><a href="#"><img src="assets/images/arrow-right.svg" alt="Перейти" name="follow-product" class=""></a></div>
+                                        </div>
+                                                
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="col-3">
+                                    <div class="d-flex flex-column bg-white product-card justify-content-between ms-sm-4 p-4 mx-auto mx-sm-0">
+                                        <a href="#" class="text-decoration-none">
+                                           <div class="mb-4"><img src="upload/cream_day.png" alt="popular-product-2" class="img-fluid mx-auto" name="product-photo"></div>
+                                           <div class="fs-12 text-color-swamp-black text-wrap pb-2">Aquasphera Moisturizing Multi-Protective Cream-Day</div>
+                                        </a>
+                                        <div class="d-flex align-items-end">
+                                            <div class="fw-600 text-color-swamp-black fs-16 mt-auto flex-grow-1">3 358 ₽</div>
+                                            <div class="me-4"><a href="#"><img src="assets/images/arrow-right.svg" alt="Перейти" name="follow-product" class=""></a></div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="col-3">
+                                    <div class="d-flex flex-column bg-white product-card justify-content-between ms-sm-4 p-4 mx-auto mx-sm-0">
+                                        <a href="#" class="text-decoration-none">
+                                           <div class="mb-4"><img src="upload/ampollas_triple.png" alt="popular-product-2" class="img-fluid mx-auto" name="product-photo"></div>
+                                           <div class="fs-12 text-color-swamp-black text-wrap pb-2">ENDOCARE 1 Second Ampollas Triple Flash (Cantabria Labs)</div>
+                                        </a>
+                                        <div class="d-flex align-items-end">
+                                            <div class="fw-600 text-color-swamp-black fs-16 mt-auto flex-grow-1">1 440 ₽</div>
+                                            <div class="me-4"><a href="#"><img src="assets/images/arrow-right.svg" alt="Перейти" name="follow-product" class=""></a></div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="col-3">
+                                    <div class="d-flex flex-column bg-white product-card justify-content-between ms-sm-4 p-4 mx-auto mx-sm-0">
+                                        <a href="#" class="text-decoration-none">
+                                           <div class="mb-4"><img src="upload/mascarilla_activa.png" alt="popular-product-2" class="img-fluid mx-auto" name="product-photo"></div>
+                                           <div class="fs-12 text-color-swamp-black text-wrap pb-2">Jalea Real & Ginseng Mascarilla Revitalizante-Activa – Активная ревитализирующая маска</div>
+                                        </a>
+                                        <div class="d-flex align-items-end">
+                                            <div class="fw-600 text-color-swamp-black fs-16 mt-auto flex-grow-1">2 200 ₽</div>
+                                            <div class="me-4"><a href="#"><img src="assets/images/arrow-right.svg" alt="Перейти" name="follow-product" class=""></a></div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="col-3">
+                                    <div class="d-flex flex-column bg-white product-card justify-content-between ms-sm-4 p-4 mx-auto mx-sm-0">
+                                        <a href="#" class="text-decoration-none">
+                                           <div class="mb-4"><img src="upload/ampollas_triple.png" alt="popular-product-2" class="img-fluid mx-auto" name="product-photo"></div>
+                                           <div class="fs-12 text-color-swamp-black text-wrap pb-2">ENDOCARE 1 Second Ampollas Triple Flash (Cantabria Labs)</div>
+                                        </a>
+                                                <div class="fw-600 text-color-swamp-black fs-16 mt-auto">1 440 ₽</div>
+                                        
+                                    </div>
+                                </div>  
+                                
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="bg-caramel-white py-3 py-md-5 pb-xxl-232 why-we">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-3">
+                        <div class="d-flex flex-column pe-5 me-5">
+                            <div class="text-nowrap text-color-swamp-black fs-28 fs-md-40 fw-700 z-10">Почему мы?</div>
+                        </div>
+                    </div>    
+                    <div class="col-12 col-lg-9">
+                        <div class="d-flex flex-column pt-3 ps-lg-5 ms-lg-5">
+                            <div class="z-10">
+                                Предлагаем Вам широкий ассортимент средств по эстетике лица, тела, волос. Каталог косметики включает в себя весь спектр товаров, каждый из которых дополнен детальным описанием состава, оказываемого действия и способа применения. Прямые поставки от ведущих европейских производителей. Все товары сертифицированы.
+                                <br><br>
+                                И нет сомнений, что многие известные личности формируют глобальную экономическую сеть и при этом -  подвергнуты целой серии независимых исследований.
+                            </div>
+                            <div class="pt-5">
+                                <button name="button-more" class="bg-mint-green text-color-white fs-14 fw-600 px-5 py-3">Подробнее <img src="assets/images/arrow_right.svg" alt="Стрелка вправо"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="bg-swamp-black footer-decoration fw-600">
+        <div class="container-fluid pt-4 pt-md-5">
+            <div class="container pb-2 pb-sm-3 pb-md-5 pt-xl-4">
+                <div class="row pb-xl-193">
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="d-flex flex-column align-items-center align-items-lg-start text-color-white mb-4 mb-sm-0">
+                                <div class="d-flex pb-4">
+                                    <div class="me-3 social-button"><a href="#"><img src="assets/images/icon_facebook_2.svg"  class="icon-center" alt="icon-facebook-2"></a></div>
+                                    <div class="me-3 social-button"><a href="#"><img src="assets/images/icon_vk_2.svg" class="icon-center" alt="icon-facebook-2"></a></div>
+                                    <div class="social-button"><a href="#"><img src="assets/images/icon_instagram_2.svg" class="icon-center" alt="icon-facebook-2"></a></div>
+                                </div>
+                                <div class="tel fs-24 fw-400 pt-2 pb-3">
+                                    <a href="tel:+74995013355" class="text-color-white white-url">+7 (499) 501-33-55</a>
+                                </div>
+                                <div class="fs-14 fw-300">
+                                    <a href="mailto:info@e-kosmetika1.ru" class="text-color-white white-url">info@e-kosmetika1.ru</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="d-flex flex-column align-items-center align-items-lg-start fs-18">
+                                <a href="#" class="mb-2 text-color-cloudy-blue cloudy-blue-url">О компании</a>
+                                <a href="#" class="mb-2 text-color-cloudy-blue cloudy-blue-url">Доставка и оплата</a>
+                                <a href="#" class="mb-2 text-color-cloudy-blue cloudy-blue-url">Новости</a>
+                                <a href="#" class="text-color-cloudy-blue cloudy-blue-url">Контакты</a>
+                            </div>
+                        </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="d-flex flex-column align-items-center align-items-lg-start ms-xl-5 mt-4 mt-lg-0 ps-xl-5 z-10">
+                            <div class="pb-3">
+                                <a href="#"><img src="assets/images/logo_footer.png" alt="Логотип"></a>
+                            </div>
+                            <div class="text-color-caramel-white fs-18 text-wrap">
+                                Интернет магазин<br>косметики
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <div class="container-fluid">
+                    <div class="decoration-line"></div>
+                </div>
+                    
+            <div class="container py-2 pb-xl-5 pt-xl-4">
+                <div class="d-flex align-items-center justify-content-center justify-content-lg-between fs-14 fw-300 text-color-white political flex-wrap">
+                    <div class="d-flex me-md-4 mt-2 flex-wrap flex-sm-nowrap justify-content-center">
+                        <div class="pe-1">© 2022 «e-kosmetika»</div>
+                        
+                    </div>
+    
+                    <div class="d-flex text-color-swamp-grey fs-12">
+                        <div class="pe-2 pe-sm-4 mt-2"><a href="#" class="text-decoration-underline">Политика конфиденциальности</a></div>
+                        <div class="mt-2"><a href="#" class="text-decoration-underline">Пользовательское соглашение</a></div>
+                    </div> 
+    
+                    <div class="d-flex align-items-center mt-2 ms-lg-3">
+                        <div>made by</div>
+                        <div class="ms-3"><a href="#"><img src="assets/images/logo_semup.svg" alt="semup"></a></div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    </body>
+</html>
